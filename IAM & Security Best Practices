@@ -1,0 +1,24 @@
+# IAM & Security Best Practices
+
+**Challenge**: Implement least-privilege IAM and diagram Shared Model (Domain 2).  
+**Inspired by**: AWS re/Start IAM labs and compliance explorations.
+
+### Steps
+1. Create IAM User: Console or `aws iam create-user --user-name myuser`.  
+2. Attach Policy: Limit to EC2 describe (no launch).  
+3. Enable MFA and CloudTrail for auditing.  
+4. Test: `aws sts get-caller-identity` with user creds.
+
+### Sample Policy (iam-policy.json)
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": "ec2:Describe*",
+    "Resource": "*"
+  }]
+}
+
+Link to draw.io depicting "Shared Responsibility Model" 
+https://app.diagrams.net/?src=about&splash=0#RzZpLc5swEMc/DdeOHoDgmLpt2kPbTDN9HRWs2JpgxAg5jvvpK15xsHDsTr3Ih0xgEVj8/trV7toBna2erjUvl5/VXOQBfR/QmVbKtEerp5nI84AgOQ/ou4AQZP8C8uHAVdxcRSXXojCn3EDaGx55vhatZbaujFoJba3fRFWqopJ3MpdGiqodW5lt3o3dLKURtyXP6vONfYmAvq2MVg/ip5ybpTUSa+k+Qmgjng5OszF1c7wWdgJGb+2Q7oakvWHbjaVRe77pPqW2JThsjUshF8v+qf2dvGoNi+dH76DYg47LOCPqMLr6eXtReHASkuOEGENAhMIDhGa5Ws/t/xutHuW8XlO+CJGIsQGhxOWTpi6eKPx/OpFD52a5rWTG60G3IltrabY+F88eGszIiHuNrJ1zwIkdOF+E2Sj9cBFsCEansKEwbJjD5ofUZs1z+YcbqQqPXGiIjnOJGAyXxOHymRd8IVb17AlS93XI2bnYR1UZj8HZvvLeGoqRw4rEI/7FzhCaU4fVO274Ha9E7WDq3mzsi3iEk0QnOFg6srWfYyFh5NC5NUrbpXQR0YdihI/DYUBehrEDZ6ZWZS55kdV8AhLzVdm8KbpW9kWL9oI3WnQ/TRyhRUKgTR6/lkl7S5sZHRAZSXp629l5uFlzHXguwq/CIZXxvSsG4uLmyp/mdt4NEMSLOl2+yjJR2R0LvdzWvEXo3mN87F7YzZ2vShuCsi7/uYDFFEV7fMaiDoLawNz0+WsptKVTLGo628qI1UVgSvBxp4MLzm4mvasyZqq4l4u19pxSY9xvIa8RIgSIkJtTf6+aJtCN0CtZVZaNzwYHTcLjMZtBLZ/xJNpa3heZ3paeF058gmthBhSBiJtCN70ffwVF31I4mPMkQMuEjCTM3lNAksbRER5gOWAfrJxC3Y0kdnt6FPVtuAHBtbnSWm2soVCFHfNWFPPecper7KE2PUnzy56j7vh3ffwmjpvRdqrNtTdRf/q7G9p+tpgvxOtI7fzUWmfdqA6HndlC9IjGwWuR263kcfj0MYzNrfal+PbFgFLJou1WdE++qQ0vvD2NhwVz17XcSdI+cSfQ89RO08zN2+E1s8FpIs1iH5pZ0RJQzdyaAl6zNJpKM+ZFsxDDauZWNiCatbp0quGpJEtgJRtsQP/I3a2YILjjoa+QqcCnXnwljYbZ+bl9xS3f4DVjdCrN2i701KJR3OfBQKId+pYGUrR4sk0JH0i7gUULIwIqmlvpwmcSUQoiWt9OGahGfaiG+yfCiEbdEnyCMgsmPI6KFnpxNQYaHqnbLJigzmLTiealOo5jWE+bqKExQdI+qhlwdfwfaTudpi2xlwLCtJJG0XspcvFzuwfIX6ZpTOzlgDDNpFHVgOvcA6qFDFa1aVoTe6pNJ5qXGhkzhM4omj3d/Ui8Hf7yN+R/AQ==#%7B%22pageId%22%3A%22gD3OHZ61SjjooZLiKk-f%22%7D
