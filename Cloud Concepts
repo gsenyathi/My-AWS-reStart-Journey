@@ -1,0 +1,24 @@
+# Cloud Concepts: AWS Global Infrastructure
+
+**Challenge**: Map AWS's global setup and explain economic benefits (Domain 1).  
+**Inspired by**: AWS re/Start Module 1 labs on Cloud Value Proposition.
+
+### Overview
+AWS operates in 30+ Regions, 100+ AZs, and 400+ Edge Locations for low-latency delivery. This setup supports scalability and fault tolerance.
+
+### Key Learnings
+- **Benefits**: Pay-as-you-go reduces CapEx; elasticity handles traffic spikes.  
+- **Economics**: Free Tier for 12 months—ideal for beginners.  
+- **Hands-On**: Queried Regions via AWS CLI: `aws ec2 describe-regions`.
+
+### Diagram: AWS Global Infrastructure
+*https://app.diagrams.net/?src=about&splash=0#R1Zrbcto6FIafhtuOLcmnS0KS7s40HRrSpvtSsVXQxFiMLJPw9ls+EZwlAhMszL4Ig2RJsb9fWic8wpPl61dJV4s7kbB0hG9GeCKFUPW35euEpekIOTwZ4esRQo7+G6HbPVfd6qqzopJl6pgJqJ6wpmnB6p5viZ7K1Ub30izRn+M4Znmuv9zRjM7Zsly5mpSrTdpMellwxWYrGpftF/00I3yVKyme2SNP1EJ3It2zZlLxmKbjlM8z3adEOa65A32Nve59iqqreYSvTCyZkuUdNhPCesKm03pp/rNu+QTXfQvG54t2SRTVnTSvO+bbdd+A6S8NMzM/DPjdCw0FOX+F1J83E/RJVkdRQR9SaR+6wUJ8wMUlIeTikdOxkI+xfKfLp4QORwYR9yCaILCDxgNopiLl8WYLZ4YH3DJ+eBCMrT3jAzC/uVQFLcdMJV9TVW6gSSqKxCagjy0N8rwOIIwDQIj4CBIioXc6ogAg+pUzORyNwDl4jiIDiz52SwhQfBe0dFdXNKVZPCQV3/c7VJDrwFPku3a4RIBL5YOcb1muSi75cFxI4HTPTntOdrl4lqxLq8GuS7qe6Y5rqugTzdlwXLDTNbpB67g7XCy5I9cFXEoH5FwV8TP7bKDXh2nxuoeIhBGEgh1LUGBYPPtZbpafBSsG3CmEREdAsbVTYKzbxnHObZHFiotsQDSou1981xC6hIY0oBc0MN6d3cyGPDzooEUJiSUWMMCtYrZbKT6dOFpAYtwfOLLEBMa2tfO5Z1XMcs9WOgWwmhAdCGujblgbtu2znB4Y1lY75pGqeDEck+hdWcEYrhDPEhMY385+lDvmQax4PCAUfIRbRrY8EAxux8mSZwPGtBEhh82KaynWRzCm3Rbr1rz0y/88PEyhH4oLuWblGm6FhUo1llK86I5MZHrMFcuStucpFfFz2fXK1R/ddr54TevfqhVF1Xh95ztXy2Z1eQuZJXP2MWJ9h6KQcTOq2UH63uasGRWahZAspYqvu6ubqFZT9WPRzc6AleCZygH07frH6QBj6H6Zd4mHVoiHkHhkl3iz8rTseDtRHnlndpsaw5s89YqfFgvG9ttDszcX7FG9oKsecfuRL4Ly1SnvufXD7wIt4uFd/Q6OD5ygX71h2rLV21BqPc02hjtaux2hOyp/cXCvQu/xUXaF9tsSllno04WDSdW0eEp5vigfX4z2ZeOnKVifR6OEfVlak4JoEFPrhnYVhKngg+TzuaE4219IYkeztiLUEQ1fbkQCE86ZEpJVuWZepAqGzKcpgMl+CfygJw3wpfg44nUr2b37LJgRz1j1Y/wPofhfHtOy2Na3hr5/pPdCfr8akkGMX+jZ1dCQwSv9PDp5dyYiU6bXKC7eCroG9bzLtYKwXtAtuPV9gs6ggGNQwL9YBTCsUNyJjGtXxLN5r/B3wzYdhwdW6Bty5Lp4eW7j5TrOu99Se86SMSxpjFMme48bznBiDKUk93JrSRiWJyqfv/n/gTedFsslpePB6+bbW5b18N2XMP8D#%7B%22pageId%22%3A%22bNSMBodIVMefgyAF0mLL%22%7D *
+
+**Cheat Sheet** (markdown table):  
+| Component | Purpose | Example |
+|-----------|---------|---------|
+| Region | Isolated geography | us-east-1 (N. Virginia) |
+| AZ | High availability | 3+ per Region |
+| Edge Location | CDN caching | CloudFront for fast content |
+
+**Reflection**: This foundation helped me grasp why AWS is a major Cloud Provider currently at 30% global market share.  
