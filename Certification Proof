@@ -1,0 +1,17 @@
+# Certification: AWS Certified Cloud Practitioner (CLF-C02)
+
+**Achieved: October 2025**    
+**Exam Domains Covered**:  
+- Domain 1: Cloud Concepts (24%) – Benefits like agility and elasticity.  
+- Domain 2: Security & Compliance (30%) – Shared Responsibility Model.  
+- Domain 3: Technology & Services (34%) – Core services (EC2, S3, VPC).  
+- Domain 4: Billing & Support (12%) – Free Tier, pricing models.
+
+### Reflections
+- **Challenge**: Memorizing 100+ services—solved with flashcards.  
+- **Key Takeaway**: AWS's global reach enables low-latency apps worldwide.  
+- **Next Step**: Pursuing either Solutions Architect Associate(SAA-CO3), Certified SysOps Administrator(SOA-CO2) or Certified Developer-Associate(DVA-C02) 
+
+![Cert Badge](aws-certified-badge.png)
+
+**Resources**: [AWS Exam Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/)
