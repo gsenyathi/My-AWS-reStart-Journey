@@ -1,6 +1,9 @@
 # AWS re/Start Journey 2025  
 **AWS Certified Cloud Practitioner – October 2025**  
 
+![image alt] (https://github.com/gsenyathi/My-AWS-reStart-Journey/blob/main/AWS%20Cloud%20Practitioner%20Foundational.png)
+
+
 [![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner_2025-blue?logo=amazon-aws&logoColor=white&style=for-the-badge)](certification/AWS-Cloud-Practitioner-Cert.pdf)  
 ![Location](https://img.shields.io/badge/Botswana%20%F0%9F%87%A7%F0%9F%87%BC-%20Gaborone-success)  
 ![Student](https://img.shields.io/badge/Computer_Systems_Engineering-Undergrad-brightgreen)  
