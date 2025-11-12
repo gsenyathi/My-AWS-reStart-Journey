@@ -1,0 +1,27 @@
+# AWS VPC Networking with Public & Private Subnets  
+**Hands-On Lab | AWS re/Start Journey**
+
+A complete, secure VPC setup with **public & private subnets**, **Internet Gateway**, and **NAT Gateway** – the exact pattern used in real production environments.
+
+![Full Architecture Diagram](VPC Screenshots/Diagram of Overview.png)
+
+---
+
+## Lab Overview (From the Official Lab Guide)
+
+This lab teaches how to isolate resources using public and private subnets – a **must-know** and crucial skill for any Cloud Engineer.
+
+![Lab Overview from AWS Training](VPC Screenshots/Lab Overview.png)
+
+---
+
+## Step-by-Step Walkthrough (With Real Screenshots)
+
+### Step 1: Create Custom VPC
+**What I did**: Created a new VPC with CIDR `10.0.0.0/16`  
+**Result**: Isolated network foundation for the entire lab.
+
+```text
+VPC ID: vpc-0c832a70e724d9b03
+Name: Lab VPC
+State: Available
