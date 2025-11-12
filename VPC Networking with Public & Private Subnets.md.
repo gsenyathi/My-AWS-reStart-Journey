@@ -3,7 +3,7 @@
 
 A complete, secure VPC setup incorporating **Public & Private subnets**, **Internet Gateway**, and **NAT Gateway** – the exact pattern used in real production environments.
 
-![Full Architecture Diagram](Images/Diagram of Overview.png)
+![Full Architecture Diagram](VPC Sceenshots/Diagram of Overview.png)
 
 ---
 
@@ -11,7 +11,7 @@ A complete, secure VPC setup incorporating **Public & Private subnets**, **Inter
 
 This lab taught me how to isolate resources using public and private subnets – an important **must-know** skillset for any Cloud Engineer or Solutions Architect role.
 
-![Lab Overview from AWS Training](Images/Lab Overview.png)
+![Lab Overview from AWS Training](VPC Sceenshots/Lab Overview.png)
 
 ---
 
