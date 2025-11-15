@@ -3,7 +3,7 @@
 
 A complete, secure VPC setup with **public & private subnets**, **Internet Gateway**, and **NAT Gateway** – the exact pattern used in real production environments.
 
-![Full Architecture Diagram](VPC Screenshots/Diagram of Overview.png)
+![Architecture Diagram] (VPC Screenshots/Diagram of Overview.png)
 
 ---
 
